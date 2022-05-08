@@ -1,10 +1,12 @@
 import './App.css';
-import UseEffectAPI from './Component/UseEffectAPI.jsx';
+import UseEffectAPIP from './Component/useEffectAPIP';
+
 
 function App() {
   return (
     <div className="App">
-      <UseEffectAPI />
+      <UseEffectAPIP />
+      
     </div>
   );
 }
