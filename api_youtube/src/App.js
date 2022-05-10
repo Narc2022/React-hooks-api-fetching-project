@@ -1,12 +1,16 @@
 import './App.css';
-import UseEffectAPIP from './Component/useEffectAPIP';
+import Child from './Reactmock/Child';
+
 
 
 function App() {
+
+  const pull_data = (data) => {
+    console.log(data);
+}
   return (
     <div className="App">
-      <UseEffectAPIP />
-      
+      <Child func={pull_data}/>
     </div>
   );
 }
