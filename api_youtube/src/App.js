@@ -1,16 +1,10 @@
 import './App.css';
-import Child from './Reactmock/Child';
-
-
+import UseEffectTable from './Component/UseEffectTable';
 
 function App() {
-
-  const pull_data = (data) => {
-    console.log(data);
-}
   return (
     <div className="App">
-      <Child func={pull_data}/>
+     <UseEffectTable />
     </div>
   );
 }
